@@ -1,72 +1,78 @@
 # ![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
 
-## Template Instructions
+# Healthcare Insurance Cost Analysis
 
-Welcome,
+**Healthcare Insurance Cost Analysis** is a comprehensive data analysis tool designed to streamline data exploration, analysis, and visualisation. The tool supports multiple data formats and provides an intuitive interface for both novice and expert data scientists.
 
-This is the Code Institute student template for the Data Analytics capstone project. We have preinstalled all of the tools you need to get started. It's perfectly okay to use this template as the basis for your project submissions. Click the `Use this template` button above to get started.
+The purpose of this project is to analyse healthcare insurance data to understand how personal attributes and geographic factors influence insurance costs and develop predictive models for estimating healthcare expenses. Provide insights and predictive reports for estimating healthcare insurance charges based on personal and geographic attributes.
 
-You can safely delete the Template Instructions section of this README.md file and modify the remaining paragraphs for your own project. Please do read the Template Instructions at least once, though! It contains some important information about the IDE and the extensions we use.
+# ![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
 
-## How to use this repo
+## Dataset Content
 
-1. Use this template to create your GitHub project repo. Click the **Use this template** button, then click **Create a new repository**.
+The dataset contains information on the relationship between personal attributes (age, gender, BMI, family size, smoking habits) and geographic factors and their impact on medical insurance charges. This data can be used to study how these features influence insurance costs and develop predictive reports for estimating healthcare expenses.
 
-1. Copy the URL of your repository to your clipboard.
+## Business Requirements
 
-1. In VS Code, select **File** -> **Open Folder**.
+-   I am looking to use this dataset to be able to predict the cost of insurance based on different characteristics and circumstances.
 
-1. Select your `vscode-projects` folder, then click the **Select Folder** button on Windows, or the **Open** button on Mac.
+## Hypothesis and how to validate?
 
-1. From the top menu in VS Code, select **Terminal** > **New Terminal** to open the terminal.
+-   Hypothesis 1:
+-   Hypothesis 2:
+-   Hypothesis 3:
+    and how you envision validating it (them)
 
-1. In the terminal, type `git clone` followed by the URL of your GitHub repository. Then hit **Enter**. This command will download all the files in your GitHub repository into your vscode-projects folder.
+## Project Plan
 
-1. In VS Code, select **File** > **Open Folder** again.
+-   Outline the high-level steps taken for the analysis.
+-   How was the data managed throughout the collection, processing, analysis and interpretation steps?
+-   Why did you choose the research methodologies you used?
 
-1. This time, navigate to and select the folder for the project you just downloaded. Then, click **Select Folder**.
+## The rationale to map the business requirements to the Data Visualisations
 
-1. A virtual environment is necessary when working with Python projects to ensure each project's dependencies are kept separate from each other. You need to create your virtual environment, also called a venv, and then ensure that it is activated any time you return to your workspace.
-Click the gear icon in the lower left-hand corner of the screen to open the Manage menu and select **Command Palette** to open the VS Code command palette.
+-   List your business requirements and a rationale to map them to the Data Visualisations
 
-1. In the command palette, type: *create environment* and select **Python: Create Environment…**
+## Analysis techniques used
 
-1. Choose **Venv** from the dropdown list.
+-   List the data analysis methods used and explain limitations or alternative approaches.
+-   How did you structure the data analysis techniques. Justify your response.
+-   Did the data limit you, and did you use an alternative approach to meet these challenges?
+-   How did you use generative AI tools to help with ideation, design thinking and code optimisation?
 
-1. Choose the Python version you installed earlier. Currently, we recommend Python 3.12.8
+## Ethical considerations
 
-1. **DO NOT** click the box next to `requirements.txt`, as you need to do more steps before you can install your dependencies. Click **OK**.
+-   Were there any data privacy, bias or fairness issues with the data?
+-   How did you overcome any legal or societal issues?
 
-1. You will see a `.venv` folder appear in the file explorer pane to show that the virtual environment has been created.
+## Unfixed Bugs
 
-1. **Important**: Note that the `.venv` folder is in the `.gitignore` file so that Git won't track it.
+-   Please mention unfixed bugs and why they were not fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a significant variable to consider, paucity of time and difficulty understanding implementation are not valid reasons to leave bugs unfixed.
+-   Did you recognise gaps in your knowledge, and how did you address them?
+-   If applicable, include evidence of feedback received (from peers or instructors) and how it improved your approach or understanding.
 
-1. Return to the terminal by clicking on the TERMINAL tab, or click on the **Terminal** menu and choose **New Terminal** if no terminal is currently open.
+## Development Roadmap
 
-1. In the terminal, use the command below to install your dependencies. This may take several minutes.
+-   What challenges did you face, and what strategies were used to overcome these challenges?
+-   What new skills or tools do you plan to learn next based on your project experience?
 
- ```console
- pip3 install -r requirements.txt
- ```
+## Main Data Analysis Libraries
 
-1. Open the `jupyter_notebooks` directory, and click on the notebook you want to open.
+-   matplotlib library and documentation on the boxplots https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.boxplot.html
 
-1. Click the **kernel** button and choose **Python Environments**.
+## Credits
 
-Note that the kernel says `Python 3.12.8` as it inherits from the venv, so it will be Python-3.12.8 if that is what is installed on your PC. To confirm this, you can use the command below in a notebook code cell.
+### Content
 
-```console
-! python --version
-```
+-   The description of this project and the dataset context came from the LMS provided by the Code Institute
+-   Information on BMI from the NHS website https://www.nhs.uk/conditions/obesity/
+-
 
-## Deployment Reminders
+### Media
 
-* Set the `.python-version` Python version to a [Heroku-22](https://devcenter.heroku.com/articles/python-support#supported-runtimes) stack currently supported version that closest matches what you used in this project.
-* The project can be deployed to Heroku using the following steps.
+-   The photos used on the home and sign-up page are from This Open-Source site
+-   The images used for the gallery page were taken from this other open-source site
 
-1. Log in to Heroku and create an App
-2. At the **Deploy** tab, select **GitHub** as the deployment method.
-3. Select your repository name and click **Search**. Once it is found, click **Connect**.
-4. Select the branch you want to deploy, then click **Deploy Branch**.
-5. The deployment process should happen smoothly if all deployment files are fully functional. Click the button **Open App** at the top of the page to access your App.
-6. If the slug size is too large, then add large files not required for the app to the `.slugignore` file.
+## Acknowledgements (optional)
+
+-   Thank you to other members of my cohort.

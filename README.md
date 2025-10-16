@@ -19,14 +19,16 @@ The dataset contains information on the relationship between personal attributes
 ## Hypothesis and how to validate?
 
 -   Hypothesis 1: On average, men pay more in insurance charges than women. I will calculate the average cost of insurance for both men and women and compare them in a chart.
--   Hypothesis 2: Being a smoker increases your insurance charges more than being overweight. I will plot a graph of age against cost and colour for both smoker and bmi (in categories), to see which increases insurance costs by more.
--   Hypothesis 3: Insurance charges are greater in the East of the US than the West. I will compare insurance costs in the east to the west using a compararive chart
+-   Hypothesis 2: Being older increases your insurance charges more than being overweight. I will use a correlation heatmap to see which correlates more with charges
+-   Hypothesis 3: Insurance charges are greater in the East of the US than the West. I will compare average insurance costs in the east to the west.
 
 ## Project Plan
 
--   Outline the high-level steps taken for the analysis.
--   How was the data managed throughout the collection, processing, analysis and interpretation steps?
--   Why did you choose the research methodologies you used?
+-   My plan is to examine the data, looking for null values, checking data types and thinking about if there is any feature creation I could undergo to make any interesting conclusions from the data.
+-   I indend to split the regions into north and south as well as east and west. I also categorised BMI by using the NHS guidlines for the different categories.
+-   I will make a boxplot to investigate if there were any outliers in the data
+-   I will use scatter plots and correlation heat maps to see the correlation between the data. If there is a correlation between the data it can be easily seen using the scatterplots. If it is harder to see you can visualise it with a correlation heatmap.
+-   I want to use the scatter plots to be able to predict insurance charges, so I will use an interactive plotly chart, which allows you to hover over the data to see the values
 
 ## The rationale to map the business requirements to the Data Visualisations
 
@@ -68,7 +70,8 @@ The dataset contains information on the relationship between personal attributes
 -   The description of this project and the dataset context came from the LMS provided by the Code Institute
 -   Information on BMI from the NHS website https://www.nhs.uk/conditions/obesity/
 -   How to set 3d fig size in plotly https://plotly.com/python/3d-scatter-plots/
--
+-   How to set bar colours https://matplotlib.org/stable/gallery/lines_bars_and_markers/bar_colors.html
+-   How to add labels in plotly https://plotly.com/python/figure-labels/
 
 ### Media
 

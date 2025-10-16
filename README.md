@@ -32,36 +32,49 @@ The dataset contains information on the relationship between personal attributes
 
 ## The rationale to map the business requirements to the Data Visualisations
 
--   List your business requirements and a rationale to map them to the Data Visualisations
+-   Using the plotly interactive plots you should be able to predict the insurance charges based on age, BMI and smoker status.
 
 ## Analysis techniques used
 
 -   I have split the BMI category into the 5 different distinctions on the NHS website. When I plotted the graph of age against cost and coloured for BMI I expected it to be clear from the colours whether charges increased with bmi, but it was not. There were too many categories for bmi. In my further analysis I will change the categories to make it so there are two, healthy weight and overweight. Hopefully this will make it clearer
--   How did you structure the data analysis techniques. Justify your response.
--   Did the data limit you, and did you use an alternative approach to meet these challenges?
--   How did you use generative AI tools to help with ideation, design thinking and code optimisation?
+-   I started with the more simple matplotlib plots, then moved onto seaborn for the correlation analysis and finally plotly for the predictive analysis as it is more interactive so more useful in predictions.
+-   There are more factors to consider than just the ones in this dataset when deciding the insurance charges, so I would say that the dataset is limited.
+-   I promted Chat GPT not to show me any code, but to act as a mentor and help me though any tasks. I prompted it to ask me questions and give hints rather than tell me answers. I would then have a go at the code and use it to help me debug.
 
 ## Ethical considerations
 
--   Were there any data privacy, bias or fairness issues with the data?
--   How did you overcome any legal or societal issues?
+-   This data may refer to real people and it is important to condiser this when analysing the data. Bits of this dataset are sensitive information, particulatly BMI and number of children. It is important that these data are annonomysed, which they seem to be.
+-   It is also important to consider how making a model with this dataset may re-inforce historical bias, such as charging smokers or people with higher BMI more for insurance without considering the social context of the individuals.
 
 ## Unfixed Bugs
 
--   Please mention unfixed bugs and why they were not fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a significant variable to consider, paucity of time and difficulty understanding implementation are not valid reasons to leave bugs unfixed.
--   Did you recognise gaps in your knowledge, and how did you address them?
--   If applicable, include evidence of feedback received (from peers or instructors) and how it improved your approach or understanding.
+-   Bugs were fixed as I went along with help from Chat GPT, there should not be any currently in the code
 
 ## Development Roadmap
 
--   What challenges did you face, and what strategies were used to overcome these challenges?
--   What new skills or tools do you plan to learn next based on your project experience?
+-   There were lots of challenges along the way. Including some problems that I solved which it turns out I didn't need to do at all. All of which was good revision of how to use pandas and the different visualisation softwares.
+-   I would like to better understand statistics as I found that I got stuck at the knowing what to plot stage. It would be good intuitively what sort of columns should be plotted against each other to make the results mean something and be interesting to look at.
+-   I would also like to be better at coming up with hypotheses.
 
 ## Main Data Analysis Libraries
 
--   matplotlib library and documentation on the boxplots https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.boxplot.html
--   plotly
--   seaborn
+-   matplotlib https://matplotlib.org/
+-   plotly https://plotly.com/python/
+-   seaborn https://seaborn.pydata.org/
+
+## Conclusions
+
+-   Hypothesis 1: On average, men pay more in insurance charges than women.
+
+There did seem to be a higher average charge for men than women, I wanted to investigate this further but could not due to time constraints. Is it because more men smoke?
+
+-   Hypothesis 2: Being older increases your insurance charges more than being overweight.
+
+There was a slightly higher correlation between age and charges than beterrn bmi and charges, so it can be said that being older effects your insurance charges more than being overweight
+
+-   Hypothesis 3: Insurance charges are greater in the East of the US than the West.
+
+The charges in the East were greater than the west, maybe this is because New York is located in the west, or maybe it is something to do with the population density
 
 ## Credits
 
@@ -73,10 +86,9 @@ The dataset contains information on the relationship between personal attributes
 -   How to set bar colours https://matplotlib.org/stable/gallery/lines_bars_and_markers/bar_colors.html
 -   How to add labels in plotly https://plotly.com/python/figure-labels/
 
-### Media
+### Media:
 
--   The photos used on the home and sign-up page are from This Open-Source site
--   The images used for the gallery page were taken from this other open-source site
+-   N/A
 
 ## Acknowledgements (optional)
 

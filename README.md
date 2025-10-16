@@ -18,10 +18,9 @@ The dataset contains information on the relationship between personal attributes
 
 ## Hypothesis and how to validate?
 
--   Hypothesis 1: On average, men pay more in insurance charges than women
--   Hypothesis 2: Being a smoker increases your insurance charges more than being overweight
--   Hypothesis 3: Insurance charges are greater in the East of the US than the West
-    and how you envision validating it (them)
+-   Hypothesis 1: On average, men pay more in insurance charges than women. I will calculate the average cost of insurance for both men and women and compare them in a chart.
+-   Hypothesis 2: Being a smoker increases your insurance charges more than being overweight. I will plot a graph of age against cost and colour for both smoker and bmi (in categories), to see which increases insurance costs by more.
+-   Hypothesis 3: Insurance charges are greater in the East of the US than the West. I will compare insurance costs in the east to the west using a compararive chart
 
 ## Project Plan
 
@@ -35,7 +34,7 @@ The dataset contains information on the relationship between personal attributes
 
 ## Analysis techniques used
 
--   List the data analysis methods used and explain limitations or alternative approaches.
+-   I have split the BMI category into the 5 different distinctions on the NHS website. When I plotted the graph of age against cost and coloured for BMI I expected it to be clear from the colours whether charges increased with bmi, but it was not. There were too many categories for bmi. In my further analysis I will change the categories to make it so there are two, healthy weight and overweight. Hopefully this will make it clearer
 -   How did you structure the data analysis techniques. Justify your response.
 -   Did the data limit you, and did you use an alternative approach to meet these challenges?
 -   How did you use generative AI tools to help with ideation, design thinking and code optimisation?
@@ -59,6 +58,8 @@ The dataset contains information on the relationship between personal attributes
 ## Main Data Analysis Libraries
 
 -   matplotlib library and documentation on the boxplots https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.boxplot.html
+-   plotly
+-   seaborn
 
 ## Credits
 
@@ -66,6 +67,7 @@ The dataset contains information on the relationship between personal attributes
 
 -   The description of this project and the dataset context came from the LMS provided by the Code Institute
 -   Information on BMI from the NHS website https://www.nhs.uk/conditions/obesity/
+-   How to set 3d fig size in plotly https://plotly.com/python/3d-scatter-plots/
 -
 
 ### Media

@@ -18,9 +18,9 @@ The dataset contains information on the relationship between personal attributes
 
 ## Hypothesis and how to validate?
 
--   Hypothesis 1:
--   Hypothesis 2:
--   Hypothesis 3:
+-   Hypothesis 1: On average, men pay more in insurance charges than women
+-   Hypothesis 2: Being a smoker increases your insurance charges more than being overweight
+-   Hypothesis 3: Insurance charges are greater in the East of the US than the West
     and how you envision validating it (them)
 
 ## Project Plan
